@@ -2,8 +2,8 @@
 A   Baby   class and methods that use the Baby class.
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Matthew De Clerck.
+"""  # Done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -90,6 +90,17 @@ def main():
 #
 ########################################################################
 
+
+class Baby(object):
+    """represents babies"""
+
+    def __init__(self):
+        self.baby = str()
+        print("Hello baby %d", self.baby)
+
+    def feed_baby(self):
+
+    def hour_passes(self):
 
 
 
